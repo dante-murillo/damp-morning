@@ -1,4 +1,4 @@
-node("launchpad-maven") {
+node("maven") {
   checkout scm
   stage("Test") {
     sh "mvn test"
